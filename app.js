@@ -24,7 +24,6 @@ app.use(
       date: String!
     }
 
-
     input EventInput {
       title: String!
       description: String!
@@ -120,9 +119,6 @@ app.use(
     graphiql: true
   })
 );
-// app.get("/", (req, res, next) => {
-//   res.send("Hello World");
-// });
 
 mongoose
   .connect(
